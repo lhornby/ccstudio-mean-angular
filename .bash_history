@@ -100,3 +100,60 @@ cd services
 ls -a
 cd ..
 nano appRoutes.js
+ls -a
+cd public/libs
+ls -a
+cd ..
+cd public
+ls -a
+cd js
+ls -a
+cd controllers/
+ls -a
+cd ..
+cd services
+ls -a
+cd ..
+ls -a
+nano appRoutes.js 
+cd ..
+ls -a
+cd ..
+ls -a
+cd public
+ls -a
+cd ..
+cd app
+ls -a
+cd ..
+cd public
+nano index.html
+cd views
+ls -a
+nano home.html
+nano nerd.html
+cd..
+cd ..
+cd js
+ls -a
+nano app.js
+cd ..
+node server.js
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku login
+git init
+git add .
+git commit -a -m "Initialising new MEAN stack app repository"
+git config --global user.email "lukas.hornby@gmail.com"
+git config --global user.name "Lukas Hornby"
+git commit -a -m "Initialising new MEAN stack app repository"
+ls -a
+cd config/
+ls -a
+nano db.js
+heroku create mean-on-heroku
+heroku create mean-heroku
+heroku create mean-heroku-css
+git push heroku master
+heroku keys:add
+git push heroku master

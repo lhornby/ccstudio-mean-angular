@@ -1,11 +1,30 @@
 {
-	"name": "starter-node-angular",
-	"version": "1.0.0",
-	"dependencies": {
-		"bootstrap": "latest",
-		"font-awesome": "latest",
-		"animate.css": "latest",
-		"angular": "latest",
-		"angular-route": "latest"
-	}
+  "name": "ccstudio-node-angular",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "animate.css": "latest",
+    "angular": "latest",
+    "angular-route": "latest"
+  },
+  "authors": [
+    "Lukas Hornby <lukas.hornby@gmail.com>"
+  ],
+  "description": "A test package for installing on different VM envs.",
+  "main": "server.js",
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "license": "MIT",
+  "homepage": "chapelstreetstudio.coop",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ]
 }
